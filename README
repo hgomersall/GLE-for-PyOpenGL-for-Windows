@@ -1,0 +1,15 @@
+The GLE Tubing and Extrusion Library.
+
+This tree includes a small modification to the original tree that
+creates a dynamically linked DLL when compiled under windows.
+The purpose was to create the necessary gle32.dll required for
+PyOpenGL to work under windows and replace the ageing one the was
+shipped with PyOpenGL (which was beginning to have dependency issues).
+
+A compiled gle32.dll is included in the root of the repository
+and should serve as a drop in replacement for the one shipped with
+PyOpenGL. Alternatively, the dll can be compiled within Visual
+Studio. The file will need to be manually renamed from gle.dll
+to gle32.dll before replacing the PyOpenGL shipped file.
+
+The small mods were done by Alejandro Segovia (and not me!).
