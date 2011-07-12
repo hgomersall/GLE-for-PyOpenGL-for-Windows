@@ -13,3 +13,7 @@ Studio. The file will need to be manually renamed from gle.dll
 to gle32.dll before replacing the PyOpenGL shipped file.
 
 The small mods were done by Alejandro Segovia (and not me!).
+
+The code is a direct fork of that written by Linas Vepstas, who
+seemingly is hard to get hold of nowadays (hence the code being
+here!). Linas, I'm happy to hand it back whenever you want.
